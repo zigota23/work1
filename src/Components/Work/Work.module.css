@@ -1,0 +1,21 @@
+.work{
+	margin-bottom: 120px;
+}
+
+.first_gallery{
+	display: flex;
+}
+
+.second_gallery{
+	display: flex;
+}
+
+.gallery_photo{
+	width: 25%;
+	margin: 2px 2px 0 2px;
+}
+
+.gallery_photo img{
+	width: 100%;
+	height: auto;
+}

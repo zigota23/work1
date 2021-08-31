@@ -1,0 +1,16 @@
+.about{
+	margin-bottom: 120px;
+}
+
+.about_button{
+	width: 100%;
+	text-align: center;
+}
+
+.about_button button{
+	background-color: white;
+	border: 1px solid black;
+	padding: 15px 45px;
+	font-family: 'Open Sans Light';
+	font-weight: 700;
+}
