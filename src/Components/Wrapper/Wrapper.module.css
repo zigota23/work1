@@ -1,6 +1,6 @@
 .wrapper{
 	text-align: center;
-	width: 790px;
+	width: 850px;
 	margin: 0 auto;
 	margin-top: 70px;
 	margin-bottom: 50px;
@@ -9,20 +9,23 @@
 .topic{
 	color:#dfc368;
 	text-transform: uppercase;
-	font-family: 'Open Sans Semibold';
+	font-family: 'Rubik';
 }
 
 .subtopic{
 	color: #4d5c66;
 	font-size: 2.86em;
-	font-family: 'Open Sans Semibold';
+	font-family: 'Rubik';
 	letter-spacing: 1px;
+	margin-top: 10px;
 }
 
 .text{
 	font-family: 'Open Sans Light';
 	margin-top: 35px;
 	color:#4d5c66;
+	font-size: 1.5em;
+	line-height:1.5em;
 }
 
 
@@ -32,6 +35,14 @@
 	}
 
 	.text{
+		font-size: 2em;
+	}
+
+	.subtopic{
+	font-size: 3.5em;
+	}
+
+	.topic{
 		font-size: 1.5em;
 	}
 }

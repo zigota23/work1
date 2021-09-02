@@ -1,19 +1,20 @@
 import './App.css';
 import Header from './Components/Header/Header.js';
-import About from './Components/About/About.js';
-import Work from './Components/Work/Work.js';
-import People from './Components/People/People.js';
+import Content from './Components/Content/Content.js';
+import Footer from './Components/Footer/Footer.js';
+import {BrowserRouter} from 'react-router-dom';
 
 
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <About/>
-      <Work/>
-      <People/>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+          <Header/>
+          <Content/>
+          <Footer/>
+      </div>
+     </BrowserRouter> 
   );
 }
 

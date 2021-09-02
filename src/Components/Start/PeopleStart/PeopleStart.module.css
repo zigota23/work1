@@ -3,7 +3,7 @@
 }
 
 .people_list{
-	width: 790px;
+	width: 850px;
 	margin: 0 auto;
 	display: flex;
 }
@@ -57,5 +57,5 @@
 .man_about{
 	font-family: 'Open Sans Light';
 	color: #4d5c66;
-	margin-bottom: 35px;
+	margin-bottom: 40px;
 }

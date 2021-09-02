@@ -21,3 +21,11 @@ font-family: 'Open Sans Semibold';
             url('https://nomail.com.ua/files/woff/33f225b8f5f7d6b34a0926f58f96c1e9.woff') format('woff'),
             url('https://nomail.com.ua/files/woff2/33f225b8f5f7d6b34a0926f58f96c1e9.woff2') format('woff2');
 }
+
+@font-face {
+font-family: 'Open Sans';
+    
+    src:    url('https://nomail.com.ua/files/eot/629a55a7e793da068dc580d184cc0e31.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/629a55a7e793da068dc580d184cc0e31.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/629a55a7e793da068dc580d184cc0e31.woff2') format('woff2');
+}

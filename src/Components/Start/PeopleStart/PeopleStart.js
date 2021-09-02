@@ -1,13 +1,13 @@
 import React from 'react';
-import style from './People.module.css';
-import Wrapper from './../Wrapper/Wrapper.js';
-import man1 from './../../img/man/man1.png';
-import man2 from './../../img/man/man2.png';
-import man3 from './../../img/man/man3.png';
+import style from './PeopleStart.module.css';
+import Wrapper from './../../Wrapper/Wrapper.js';
+import man1 from './../../../img/man/man1.png';
+import man2 from './../../../img/man/man2.png';
+import man3 from './../../../img/man/man3.png';
 
 
 
-const People = (props)=>{
+const PeopleStart = (props)=>{
 
 	const createMan = (photo,position,name,about)=>{
 		return(
@@ -36,4 +36,4 @@ const People = (props)=>{
 		)
 }
 
-export default People;
+export default PeopleStart;

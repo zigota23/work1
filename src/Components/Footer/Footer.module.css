@@ -1,0 +1,14 @@
+.conteiner{
+	width: 850px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+	color:#4d5c66;
+	font-family: 'Calibri Light';
+	font-weight: 600;
+}
+
+footer{
+	background-color: #eeeeee;
+}

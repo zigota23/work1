@@ -1,21 +1,21 @@
 import React from 'react';
-import style from './Work.module.css';
-import Wrapper from './../Wrapper/Wrapper.js';
-import gallery1 from './../../img/gallery/gallery1.png';
-import gallery2 from './../../img/gallery/gallery2.png';
-import gallery3 from './../../img/gallery/gallery3.png';
-import gallery4 from './../../img/gallery/gallery4.png';
-import gallery5 from './../../img/gallery/gallery5.png';
-import gallery6 from './../../img/gallery/gallery6.png';
-import gallery7 from './../../img/gallery/gallery7.png';
-import gallery8 from './../../img/gallery/gallery8.png';
+import style from './WorkStart.module.css';
+import Wrapper from './../../Wrapper/Wrapper.js';
+import gallery1 from './../../../img/gallery/gallery1.png';
+import gallery2 from './../../../img/gallery/gallery2.png';
+import gallery3 from './../../../img/gallery/gallery3.png';
+import gallery4 from './../../../img/gallery/gallery4.png';
+import gallery5 from './../../../img/gallery/gallery5.png';
+import gallery6 from './../../../img/gallery/gallery6.png';
+import gallery7 from './../../../img/gallery/gallery7.png';
+import gallery8 from './../../../img/gallery/gallery8.png';
 
 
 
 
 
 
-const Work = (props)=>{
+const WorkStart = (props)=>{
 	return(
 		<div className={style.work}>
 			<Wrapper topic='What we do' subtopic='Show Your Amazing Work'/>
@@ -37,4 +37,4 @@ const Work = (props)=>{
 		)
 }
 
-export default Work;
+export default WorkStart;
