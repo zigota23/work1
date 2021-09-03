@@ -23,7 +23,7 @@ const LastpostStart = (props)=>{
 						<div className={style.post_button}><button>Read</button></div>
 					</div>
 				</div>
-				<NavLink to='/blog'><div className={style.more_button}><button>More From Our Blog</button></div></NavLink>
+				<NavLink to='/blog'><div className={style.more_button} onClick={()=>{window.scrollTo(0,0)}}><button>More From Our Blog</button></div></NavLink>
 			</div>
 		</div>
 		)

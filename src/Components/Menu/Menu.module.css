@@ -1,0 +1,43 @@
+.menu{
+	position: absolute;
+	z-index: 150;
+	text-align: center;
+	background-color: rgba(95,95,95,0.4);
+	width: 30%;
+	height: 100%;
+	left:0px;
+	top:0px;
+	display: block;
+	transition-duration: 0.5s;
+}
+
+.point{
+	font-size: 2.5em;
+	color:white;
+	padding: 20px 0;
+}
+
+.point:first-child{
+	margin-top: 40px;
+}
+
+.point_disable{
+	display: none;
+}
+
+.menu_disable{
+	position: absolute;
+	z-index: 150;
+	text-align: center;
+	background-color: rgba(95,95,95,0.4);
+	width: 0px;
+	height: 0px;
+	left:0px;
+	top:0px;
+	display: block;
+	transition-duration: 0.5s;
+}
+
+a{
+	text-decoration: none;
+}

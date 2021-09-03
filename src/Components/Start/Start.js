@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Start.module.css';
 import AboutStart from './AboutStart/AboutStart.js';
-import WorkStart from './WorkStart/WorkStart.js';
+import Work from './../Work/Work.js';
 import PeopleStart from './PeopleStart/PeopleStart.js';
 import LastpostStart from './LastpostStart/LastpostStart.js';
 import ContactStart from './ContactStart/ContactStart.js';
@@ -12,7 +12,7 @@ const Start = (props)=>{
 	return(
 		<div>
 			<AboutStart/>
-			<WorkStart/>
+			<Work topic='What we do' subtopic='Show Your Amazing Work'/>
 			<PeopleStart/>
 			<LastpostStart/>
 			<ContactStart/>

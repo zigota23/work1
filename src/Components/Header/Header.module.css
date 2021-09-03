@@ -27,6 +27,7 @@
 	margin-right: 50px;
 	margin-top: 15px;
 	display: flex;
+	cursor: pointer;
 }
 
 .menu_burger span{
@@ -65,7 +66,7 @@
 	width: 100%;
 	position: absolute;
 	top:35%;
-	z-index: 100;
+	z-index: 90;
 	color:white;
 	font-size: 3.5em;
 	text-align: center;
