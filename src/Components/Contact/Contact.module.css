@@ -1,0 +1,72 @@
+.info{
+	display: flex;
+	flex-flow: column;
+}
+
+.first_row{
+	display: flex;
+}
+
+.second_row{
+	display: flex;
+}
+
+.title{
+	width: 40%;
+	background-color: #d3b000;
+	color:white;
+	padding: 35px;
+	margin-right: 10px;
+}
+
+.title div{
+	width: 20%;
+	border-top: 4px solid white; 
+}
+
+.title span{
+	width: 500%;
+	display: inline-block;
+	margin-top: 70px;
+	font-size: 2em;
+}
+
+.photo{
+	width: 60%;
+}
+
+.photo img{
+	width: 100%;
+	height: auto;
+}
+
+.text{
+	width: 60%;
+	font-size: 1.5em;
+	padding: 45px;
+	color:#4d5c66;
+}
+
+.phone{
+	width: 40%;
+	font-size: 1.5em;
+	background-color: #212121;
+	color:white; 
+	padding: 35px 30px;
+}
+
+.phone div{
+	width: 20%;
+	border-top:4px solid white; 
+}
+
+.phone span{
+	display: block;
+	width: 500%;
+	margin-top: 50px;
+}
+
+.email_button{
+	margin: 70px 0 ;
+}
+

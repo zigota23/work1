@@ -14,7 +14,7 @@ const AboutStart = (props)=>{
 		<div className={style.about}>
 			<Wrapper topic='Wro we are' subtopic='Tell The World About Yourself' text={wrapperText} />
 			<NavLink to='/about'>
-				<div className={style.about_button} onClick={onClickButton}>
+				<div className='common_button' onClick={onClickButton}>
 					<button>Read More About Us</button>
 				</div>
 			</NavLink>

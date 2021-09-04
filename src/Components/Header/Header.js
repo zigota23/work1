@@ -4,6 +4,7 @@ import common_img from '../../img/header-img.png';
 import about_logo from '../../img/about_logo.png';
 import blog_logo from '../../img/blog_logo.png';
 import work_logo from '../../img/work_logo.png';
+import contact_logo from '../../img/contact_logo.png';
 import logo from '../../img/logo.png';
 import {withRouter} from 'react-router-dom';
 import WebMenu from './../Menu/Menu.js';
@@ -29,6 +30,10 @@ const Header = (props)=>{
 		}
 		case '/work':{
 			logo_photo = work_logo;
+			break;
+		}
+		case '/contact':{
+			logo_photo = contact_logo;
 			break;
 		}
 

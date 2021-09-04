@@ -6,6 +6,7 @@ import {NavLink} from 'react-router-dom';
 const Menu = (props)=>{
 	return(
 		<div className={props.status?style.menu:style.menu_disable}>
+			<NavLink to='/'><div className={props.status?style.point:style.point_disable}>Home</div></NavLink>
 			<NavLink to='/about'><div className={props.status?style.point:style.point_disable}>About</div></NavLink>
 			<NavLink to='/blog'><div className={props.status?style.point:style.point_disable}>Blog</div></NavLink>
 			<NavLink to='/work'><div className={props.status?style.point:style.point_disable}>Work</div></NavLink>

@@ -20,10 +20,10 @@ const LastpostStart = (props)=>{
 						<div className={style.post_data}>14 september 2020</div>
 						<div className={style.post_name}>Change Your Space</div>
 						<div className={style.post_text}>{postText}</div>
-						<div className={style.post_button}><button>Read</button></div>
+						<NavLink to='/post'><div className={style.post_button+' '+'common_button'}><button>Read</button></div></NavLink>
 					</div>
 				</div>
-				<NavLink to='/blog'><div className={style.more_button} onClick={()=>{window.scrollTo(0,0)}}><button>More From Our Blog</button></div></NavLink>
+				<NavLink to='/blog'><div className='common_button' onClick={()=>{window.scrollTo(0,0)}}><button>More From Our Blog</button></div></NavLink>
 			</div>
 		</div>
 		)

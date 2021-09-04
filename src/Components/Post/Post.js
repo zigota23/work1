@@ -1,27 +1,30 @@
 import React from 'react';
-import style from './Blog.module.css';
-import post_img from './../../img/post_img.png';
-import Post from './Post/Post.js';
+import style from './Post.module.css';
 import gallery2 from './../../img/gallery/gallery2.png';
 import gallery3 from './../../img/gallery/gallery3.png';
 import gallery4 from './../../img/gallery/gallery4.png';
 import gallery5 from './../../img/gallery/gallery5.png';
+import post_img from './../../img/post_img.png';
+import PostInner from './../Blog/Post/Post.js';
 
 
-const Blog = (props)=>{
+
+
+const Post = (props)=>{
 
 	const post_text = "This looks. I want to complexity. That's come to testify to complexity. It's about an object, we kept going and i figured out some basic stuff that acknowledges its very minimalist way beyond the traditions of function from a clutterfree product that form and value on ideas and simplicity. What products have disconnected function of anything of the computer.";
 	const post_topic = 'This is the Title of Your Post';
 	const post_date = '14 september 2020';
-	const arrPosts = [{post_img,post_topic,post_date,post_text},{post_img,post_topic,post_date,post_text}];
+	const arrPosts = [{post_img,post_topic,post_date,post_text}];
 
 	const posts = arrPosts.map(item=>{
-		return <Post img={item.post_img} topic={item.post_topic} date={item.post_date} text={item.post_text}/>
+		return <PostInner img={item.post_img} topic={item.post_topic} date={item.post_date} text={item.post_text} post={true} />
 	})
+
 	return(
-		<div className={style.blog}>
+		<div className={style.post}>
 			<div className={style.columns}>
-				<div className={style.posts}>
+				<div className={style.post_column}>
 					{posts}
 				</div>
 				<div className={style.info}>
@@ -66,4 +69,4 @@ const Blog = (props)=>{
 		)
 }
 
-export default Blog;
+export default Post;

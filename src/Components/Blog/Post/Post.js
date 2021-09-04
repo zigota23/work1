@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Post.module.css';
-
+import {NavLink} from  'react-router-dom';
 
 
 const Post = (props)=>{
@@ -10,7 +10,7 @@ const Post = (props)=>{
 			<div className={style.topic}>{props.topic}</div>
 			<div className={style.date}>{props.date}</div>
 			<div className={style.text}>{props.text}</div>
-			<div className={style.button}><button>Read more</button></div>
+			{!props.post&&<NavLink to='/post'><div className={style.more_button+' '+'common_button'}><button>Read more</button></div></NavLink>}
 		</div>
 		)
 }
