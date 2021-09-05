@@ -6,6 +6,7 @@ import about_logo from '../../img/about_logo.png';
 import about_logo_mobile from '../../img/about_logo_mobile.png';
 import blog_logo from '../../img/blog_logo.png';
 import work_logo from '../../img/work_logo.png';
+import work_logo_mobile from '../../img/work_logo_mobile.png';
 import contact_logo from '../../img/contact_logo.png';
 import logo from '../../img/logo.png';
 import {withRouter} from 'react-router-dom';
@@ -33,11 +34,13 @@ const Header = (props)=>{
 			break;
 		}
 		case '/post':{
-			logo_photo = blog_logo;
+			if(window.innerWidth<=650)logo_photo=null;
+			else{logo_photo = blog_logo}
 			break;
 		}
 		case '/work':{
-			logo_photo = work_logo;
+			if(window.innerWidth<=650)logo_photo=work_logo_mobile;
+			else{logo_photo = work_logo}
 			break;
 		}
 		case '/contact':{
