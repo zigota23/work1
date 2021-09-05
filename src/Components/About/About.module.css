@@ -32,7 +32,7 @@
 	width: 50%;
 	padding-left: 20px;
 	padding-right: 30px;
-	font-size: 20px;
+	font-size: 1.5em;
 	color: #4d5c66;
 	font-family: 'Open Sans';
 }
@@ -47,4 +47,44 @@
 	color: #4d5c66;
 	font-family: 'Open Sans';
 	list-style-type: '-  ';
+}
+
+@media(max-width:1200px){
+	.services{
+		display: block;
+	}
+	.services_img{
+		width: 100%;
+	}
+	.services_info{
+		width: 100%;
+	}
+	.topic{
+		font-size: 3em;
+	}
+	.text1{
+		font-size: 1.7em;
+	}
+	.text2{
+		font-size: 1.5em;
+	}
+}
+
+@media(max-width: 650px){
+	.text1{
+		font-size: 2em;
+	}
+}
+
+@media(max-width: 450px){
+	.services_text{
+		display: block;
+	}
+	.text1{
+		width: 100%;
+	}
+	.text2{
+		margin-top: 20px;
+		width: 100%;
+	}
 }

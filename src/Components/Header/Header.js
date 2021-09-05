@@ -3,6 +3,7 @@ import style from './Header.module.css';
 import common_img from '../../img/header_img.png';
 import common_img_mobile from '../../img/header_img_mobile.png';
 import about_logo from '../../img/about_logo.png';
+import about_logo_mobile from '../../img/about_logo_mobile.png';
 import blog_logo from '../../img/blog_logo.png';
 import work_logo from '../../img/work_logo.png';
 import contact_logo from '../../img/contact_logo.png';
@@ -22,7 +23,8 @@ const Header = (props)=>{
 	let logo_photo = null;
 	switch(props.location.pathname){
 		case '/about':{
-			logo_photo = about_logo;
+			if(window.innerWidth<=650)logo_photo=about_logo_mobile;
+			else{logo_photo = about_logo}
 			break;
 		}
 		case '/blog':{
