@@ -44,7 +44,8 @@ const Header = (props)=>{
 			break;
 		}
 		case '/contact':{
-			logo_photo = contact_logo;
+			if(window.innerWidth<=650)logo_photo=null;
+			else{logo_photo = contact_logo}
 			break;
 		}
 

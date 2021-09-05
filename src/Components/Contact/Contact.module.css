@@ -70,3 +70,24 @@
 	margin: 70px 0 ;
 }
 
+
+@media(max-width: 650px){
+	.first_row{
+		display: block;
+	}	
+	.second_row{
+		display: block;
+	}
+	.title{
+		width: 100%;
+	}
+	.photo{
+		width: 100%;
+	}
+	.text{
+		width: 100%
+	}
+	.phone{
+		width: 100%;
+	}
+}
