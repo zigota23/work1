@@ -17,7 +17,7 @@
 
 .info{
 	width: 30%;
-	padding-right: 70px;
+	padding-right: 60px;
 }
 
 .info ul{
@@ -51,4 +51,21 @@
 .project_img img{
 	width: 100%;
 	height: auto;
+}
+
+@media(max-width:650px){
+	.blog{
+		margin-top: 90px;
+	}
+	.columns{
+		display: block;
+	}
+	.posts{
+		width: 100%
+	}
+	.info{
+		width: 100%;
+		padding: 0 60px;
+		margin-top: 30px;
+	}
 }

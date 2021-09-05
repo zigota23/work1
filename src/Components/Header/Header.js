@@ -28,7 +28,8 @@ const Header = (props)=>{
 			break;
 		}
 		case '/blog':{
-			logo_photo = blog_logo;
+			if(window.innerWidth<=650)logo_photo=null;
+			else{logo_photo = blog_logo}
 			break;
 		}
 		case '/post':{
@@ -51,7 +52,7 @@ const Header = (props)=>{
 	}
 	return(
 		<header>
-			<div className={style.header_img}><img src={logo_photo}/></div>
+			<div className={style.header_img}>{logo_photo?<img src={logo_photo}/>:false}</div>
 			<WebMenu status={status}/>
 			<div className={style.header_menu}>
 				<div className={style.logo}><img src={logo}/></div>
