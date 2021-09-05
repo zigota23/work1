@@ -15,9 +15,11 @@
 	font-size: 2.5em;
 	color:white;
 	padding: 20px 0;
+	height: 100px;
+	margin-top: 40px;
 }
 
-.point:first-child{
+.menu a:first-child .point{
 	margin-top: 40px;
 }
 
@@ -46,4 +48,10 @@ a{
 	color:#dfc368;
 	font-size:2.6em;
 	transition: 0.2s;
+}
+
+@media(max-width: 650px){
+	.point{
+		margin-top: 0;
+	}
 }

@@ -27,11 +27,14 @@ const PeopleStart = (props)=>{
 	return(
 		<div className={style.people}>
 			<Wrapper topic='Who we are' subtopic='The Amazing People Behind This' text={wrapperText}/>
-			<div className={style.people_list}>
-				{createMan(man1,'ceo','Tobias Schneider',aboutMan)}
-				{createMan(man2,'designer','Jack Knife',aboutMan)}
-				{createMan(man3,'developer','Ricki Hall',aboutMan)}
+			<div className='conteiner'>
+				<div className={style.people_list}>
+					{createMan(man1,'ceo','Tobias Schneider',aboutMan)}
+					{createMan(man2,'designer','Jack Knife',aboutMan)}
+					{createMan(man3,'developer','Ricki Hall',aboutMan)}
+				</div>
 			</div>
+			
 		</div>
 		)
 }

@@ -10,7 +10,7 @@ const Post = (props)=>{
 			<div className={style.topic}>{props.topic}</div>
 			<div className={style.date}>{props.date}</div>
 			<div className={style.text}>{props.text}</div>
-			{!props.post&&<NavLink to='/post'><div className={style.more_button+' '+'common_button'}><button>Read more</button></div></NavLink>}
+			{!props.post&&<NavLink to='/post'><div className={style.more_button+' '+'common_button'} onClick={()=>{window.scrollTo(0,0)}}><button>Read more</button></div></NavLink>}
 		</div>
 		)
 }

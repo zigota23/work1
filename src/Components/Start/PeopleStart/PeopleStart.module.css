@@ -3,8 +3,6 @@
 }
 
 .people_list{
-	width: 850px;
-	margin: 0 auto;
 	display: flex;
 }
 
@@ -14,11 +12,11 @@
 	margin: 0 5px;
 }
 
-.people_list div:first-child{
+.people_list .man:first-child{
 	margin-left:0; 
 }
 
-.people_list div:last-child{
+.people_list .man:last-child{
 	margin-right: 0;
 }
 
@@ -58,4 +56,32 @@
 	font-family: 'Open Sans Light';
 	color: #4d5c66;
 	margin-bottom: 40px;
+}
+
+@media(max-width:650px){
+	.people_list{
+		display: block;
+	}
+	.man{
+		width: 100%;
+		margin: 0;
+	}
+	.people_list .man:first-child{
+		margin: 0; 
+	}
+
+	.people_list .man:last-child{
+		margin: 0;
+	}
+	.man_position{
+		font-size: 2em;
+	}
+	.man_name{
+		font-size: 3em;
+	}
+	div.man_about{
+		font-size: 2em;
+		padding: 20px 15px;
+	}
+
 }

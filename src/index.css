@@ -47,3 +47,31 @@ code {
   font-size: 1.2em;
   transition: .2s;
 }
+
+@media(max-width:900px){
+  .conteiner{
+    width:  600px;
+  }
+  html{
+    font-size:10px;
+  }
+}
+
+@media(max-width:650px){
+   .conteiner{
+    width:  450px;
+  }
+  .common_button button{
+    font-size: 2em;
+  }
+  .common_button button:hover{
+  font-size: 1.7em;
+  transition: .2s;
+  }
+}
+
+@media(max-width: 450px){
+  .conteiner{
+      width:  300px;
+    }
+}

@@ -1,7 +1,5 @@
 .wrapper{
 	text-align: center;
-	width: 850px;
-	margin: 0 auto;
 	margin-top: 70px;
 	margin-bottom: 50px;
 }
@@ -44,5 +42,29 @@
 
 	.topic{
 		font-size: 1.5em;
+	}
+}
+
+@media(max-width: 650px){
+	.topic{
+		font-size: 2em;
+	}
+	.subtopic{
+		font-size: 5.5em
+	}
+	.text{
+		font-size: 3em;
+	}
+}
+
+@media(max-width: 450px){
+	.topic{
+		font-size: 1.5em;
+	}
+	.subtopic{
+		font-size: 3em
+	}
+	.text{
+		font-size: 2em;
 	}
 }
