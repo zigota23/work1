@@ -100,6 +100,9 @@
 	.header_main_text{
 		top:15%;
 	}
+	.menu_burger{
+		margin-right: 20px;
+	}
 }
 
 @media(max-width:650px){
